@@ -1,0 +1,47 @@
+
+
+.main{
+   background-color: aquamarine;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   h1{
+    font-weight: bold;
+    color:maroon;
+   }
+   .paragraf{
+       padding-top: 1px;
+       background-color: black;
+       color: aliceblue;
+   }
+
+}
+
+//$
+//Parent Selector
+
+.main {
+    .container & {
+        background-color: black;
+    }
+    &:hover{
+        background-color:aquamarine;
+    }
+}
+
+
+//NestingDenganBanyakSelector
+
+// .footer{
+
+// & &-mainfooter{
+
+//     background-color: bisque;
+
+// }
+// & &-footerparagraf{
+//     background-color: blueviolet;
+
+// }
+// }
